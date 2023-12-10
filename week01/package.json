@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "html-to-text": "^9.0.5",
+    "jsdom": "^23.0.1",
+    "open-graph-scraper": "^6.3.2",
+    "openai": "^4.20.1",
+    "url-metadata": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.10.4",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts"
+  }
+}
