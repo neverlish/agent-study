@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
+}
+
+h1 {
+  text-align: center;
+  color: #555;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  width: 70%;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.input-section button {
+  height: 30px;
+  width: 25%;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task-item .task-text {
+  flex-grow: 1;
+}
+
+.task-item button {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
